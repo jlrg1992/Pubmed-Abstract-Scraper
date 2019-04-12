@@ -1,11 +1,15 @@
 var request = require('request');
 var cheerio = require('cheerio');
 
-var bio = [];
-var bioData = [];
+//Change the three variables bellow to set your search
 var terms = ["testosterone","food"];
 var resultNumber = "20";
 var minDate = "2014/01/01";
+
+
+
+var bio = [];
+var bioData = [];
 var titlesite = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi';
 var site = titlesite+'?minDate='+minDate+'&db=pubmed&tool=personal+use+only&email=jlrg1992@gmail.com&retmax='+resultNumber+'&field=title&term=';
 for(let x of terms){
