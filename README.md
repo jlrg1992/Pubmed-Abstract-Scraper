@@ -2,14 +2,14 @@
 
 An easy way to get hundreds of abstracts at PubMed.
 
-#Configurations
+# Configurations
 ## terms
 Write in this array the keywords you are looking for.
 
-##resultNumber
+## resultNumber
 Write an integer with the number of abstracts you want to get.
 
-##minDate
+## minDate
 Write the oldest date you want your articles to be. The format is YYYY/MM/DD
 
 
